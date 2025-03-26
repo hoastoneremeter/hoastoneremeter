@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>week 2 assignment</title>
+        <body>
+            <h1>Name of The Leading Car Models</h1>
+            <ol type="i" start="1">
+                <li>Toyota</li>
+                <li>Mercedes Benz</li>
+                <li>Nissan</li> 
+                <li>Range Rover</li>
+                <li>Renault</li>
+            </ol>
+            <img src="car.jpg" alt="image of car" width="450px" height="500px">
+            <table border="1">
+                <caption>Details of The Car Models</caption>
+                 <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>address</th>
+                        <th>mobile</th>
+                        <th>email</th>
+                    </tr>
+                 </thead>
+                <tbody>
+                    <tr>
+                        <td>Toyota</td>
+                        <td>Toyota Kenya</td>
+                        <td>0712345678</td>
+                        <td>toyota@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mercedes Benz</td>
+                        <td>Mercedes Benz Kenya</td>
+                        <td>0752345678</td>
+                        <td>mercedesbenz.co.ke</td>
+                    </tr>
+                    <tr>
+                        <td>Nissan</td>
+                        <td>Nissan Kenya</td>
+                        <td>0742345678</td>
+                        <td>nissansales@ac.ke</td>
+                    </tr>
+                    <tr>
+                        <td>Range Rover</td>
+                        <td>Range Rover Kenya</td>
+                        <td>0732345678</td>
+                        <td>rangerover.ac.ke</td>
+                    </tr>
+                    <tr>
+                        <td>Renault</td>
+                        <td>Renault Kenya</td>
+                        <td>0722345678</td>
+                        <td>renault@gmail</td>  
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Registration Form</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+                <br><br>
+                <label for="purchase">Purchase:</label>
+                <input type="radio" id="purchase" name="purchase" value="Order">Order
+                <input type="radio" id="purchase" name="purchase" value="return">return
+                <br><br>
+                <label for="model">Models:   </label>
+                <input type="checkbox" id="model" name="model" value="Toyota">Toyota
+                <input type="checkbox" id="model" name="model" value="Mercedes Benz">Mercedes Benz
+                <input type="checkbox" id="model" name="model" value="Nissan">Nissan
+                <input type="checkbox" id="model" name="model" value="Range Rover">Range Rover
+                <input type="checkbox" id="model" name="model" value="Renault">Renault
+                <br><br>
+                <select for="country of puchase" id="country" name="country">
+                    <option>--select country of purchase--</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="tanzania">Tanzania</option>
+                    <option value="gambia">Gambia</option>
+                </select>
+                <br><br>
+                <button>Submit</button>
+                <input type="submit" value="cancel">
+            </form>
+        </body>
+    </head>
+</html>
